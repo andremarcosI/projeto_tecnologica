@@ -1,0 +1,56 @@
+/*-- reset das configurações --*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Edição do header */
+
+#header{
+    padding: 15px;
+    background: #0066cc;
+    text-align: center;
+}
+#logo, #menu{
+    padding: 10px;
+}
+#header a:link , #header a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+#header a:hover{
+    color: #0066cc;
+    background: #fff;
+    text-decoration: none;
+}
+
+.white{
+    color: #fff;
+}
+
+
+/* Edição do content */
+
+#content{
+    width: 920px;
+    margin: 0 auto; /* IMPORTANTE !!!   centralizar a tela */
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    text-align: justify;
+}
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #0066cc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
